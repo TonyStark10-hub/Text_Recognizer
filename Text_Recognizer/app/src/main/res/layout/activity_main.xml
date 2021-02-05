@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtAppNM"
+        android:text="Recognizer"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="50dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:id="@+id/imageView"
+        android:elevation="10dp"
+        android:layout_below="@+id/txtAppNM"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="40dp"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Take a picture"
+        android:id="@+id/btnTake"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        />
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Process picture"
+        android:id="@+id/btnPr"
+        android:layout_below="@+id/btnTake"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Process picture"
+        android:id="@+id/btnProcessed"
+        android:layout_below="@+id/btnPr"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:visibility="gone"
+        />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
